@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #38973d; /* Preto */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+.social {
+    text-decoration: none;
+    bottom: 20px; /* Distância do fundo */
+    z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}
+.social img{
+    width:2rem; /* Tamanho do ícone */
+    height: auto; /* Mantém a proporção */
+}
